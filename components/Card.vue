@@ -1,8 +1,8 @@
 <template>
-    <div class="px-8 py-4 glass flex flex-col items-center gap-2 text-white">
-        <img class="w-full" src="" alt="Company Logo">
-        <h4 class="mt-2 text-5xl">$100,000</h4>
-        <p class="text-xl">Convertible Note</p>
+    <div class="px-16 py-4 glass flex flex-col items-center gap-2 text-white">
+        <img class="w-24" src="../assets/companylogo.png" alt="Company Logo">
+        <h4 class="mt-2 text-[24px]">$100,000</h4>
+        <p class="text-[16px]">Convertible Note</p>
     </div>
 </template>
 

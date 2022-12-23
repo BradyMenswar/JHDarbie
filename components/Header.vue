@@ -1,10 +1,10 @@
 <template>
-    <div class="absolute w-full flex justify-between py-12 items-center">
-        <div class="h-full">
-            <img class="logo ml-24" src="../assets/logo.png" alt="JH Darbie & Co.">
+    <div class="w-full h-[96px] px-[48px] flex justify-between">
+        <div class="h-full flex items-center">
+            <img class="logo" src="../assets/logo.png" alt="JH Darbie & Co.">
         </div>
-        <div class="mr-64 h-full">
-            <ul class="flex gap-16 text-2xl font-semibold">
+        <div class="h-full">
+            <ul class="h-full flex gap-16 items-center text-[24px]">
                 <li>Services</li>
                 <li>Banking</li>
                 <li>Firm Transactions</li>
