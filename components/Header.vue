@@ -5,10 +5,10 @@
         </div>
         <div class="h-full">
             <ul class="h-full flex gap-16 items-center text-[24px] text-white">
-                <li>Services</li>
-                <li>Banking</li>
-                <li>Firm Transactions</li>
-                <li>About Us</li>
+                <li class="hover:text-sky-300 duration-[500ms] cursor-pointer">Services</li>
+                <li class="hover:text-sky-300 duration-[500ms] cursor-pointer">Banking</li>
+                <li class="hover:text-sky-300 duration-[500ms] cursor-pointer">Firm Transactions</li>
+                <li class="hover:text-sky-300 duration-[500ms] cursor-pointer">About Us</li>
             </ul>
         </div>
     </div>
@@ -18,4 +18,5 @@
     .logo {
         height: 75%;
     }
+
 </style>
