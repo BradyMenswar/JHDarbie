@@ -7,7 +7,7 @@
             <ul class="h-full flex gap-16 items-center text-[24px] text-white">
                 <li class="hover:text-sky-300 duration-[500ms] cursor-pointer"><NuxtLink to="/services">Services</NuxtLink></li>
                 <li class="hover:text-sky-300 duration-[500ms] cursor-pointer">Banking</li>
-                <li class="hover:text-sky-300 duration-[500ms] cursor-pointer">Firm Transactions</li>
+                <li class="hover:text-sky-300 duration-[500ms] cursor-pointer"><NuxtLink to="/transactions">Firm Transactions</NuxtLink></li>
                 <li class="hover:text-sky-300 duration-[500ms] cursor-pointer">About Us</li>
             </ul>
         </div>

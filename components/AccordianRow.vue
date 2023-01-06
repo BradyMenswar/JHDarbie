@@ -1,8 +1,7 @@
 <template>
-    <div class="bg-blue-200 px-8 py-4 flex flex-col gap-2 border-b-[1px] border-gray-400">
+    <div @click="toggleAccordian" class="px-8 py-4 flex flex-col gap-2 border-b-[1px] border-gray-200 cursor-pointer bg-zinc-50">
         <div class="flex w-full justify-between">
             <h1 class="text-[24px]">{{ title }}</h1>
-            <button @click="toggleAccordian">{{ test ? "^" : "V" }}</button>
         </div>
         <p :class="{open: test, close: !test}" class="text-[16px]">{{ body }}</p>
     </div>
