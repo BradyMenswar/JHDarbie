@@ -1,7 +1,7 @@
 <template>
     <div class="w-screen h-screen flex items-center flex-col">
         <HeaderAlt></HeaderAlt>
-        <div class="flex flex-col gap-8">    
+        <div class="flex flex-col gap-8 mt-[5%] px-16 py-8">    
             <article class="flex flex-col gap-2 w-[50%]">
                 <h3 class="text-[24px] font-semibold">Alternative Investments</h3>
                 <p class="text-[16px]">In today's ever changing global environment diversification to reduce overall investment risk has led investors to seek out alternative investments.  Alternative investments have become increasingly popular as economic climates change and new global opportunities arise.  JH Darbie utilizes a host of non-traditional strategies to assist our clients in an effort to provide positive returns in all market climates.</p>

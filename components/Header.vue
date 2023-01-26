@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full mt-[1%] h-[10%] px-[5%] flex justify-between">
+    <div class="w-full h-[10%] px-[5%] flex justify-between">
         <div class="h-full flex items-center">
             <img class="logo" src="../assets/logo-white.png" alt="JH Darbie & Co.">
         </div>
@@ -8,7 +8,7 @@
                 <li class="hover:text-sky-300 duration-[500ms] cursor-pointer"><NuxtLink to="/services">Services</NuxtLink></li>
                 <li class="hover:text-sky-300 duration-[500ms] cursor-pointer">Banking</li>
                 <li class="hover:text-sky-300 duration-[500ms] cursor-pointer"><NuxtLink to="/transactions">Firm Transactions</NuxtLink></li>
-                <li class="hover:text-sky-300 duration-[500ms] cursor-pointer">About Us</li>
+                <li class="hover:text-sky-300 duration-[500ms] cursor-pointer"><NuxtLink to="/about">About Us</NuxtLink></li>
             </ul>
         </div>
     </div>
