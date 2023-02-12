@@ -1,5 +1,5 @@
 <template>
-    <div class="footer w-screen h-64 flex flex-col text-white items-center bg-black">
+    <div class="footer w-full h-64 flex flex-col text-white items-center bg-black">
         <div class="flex gap-[15%] items-start justify-center py-8 w-full">
             <div class="text-center">   
                 <h3 class="text-[20px] font-semibold">Telephone</h3>
@@ -38,7 +38,6 @@
 
 <style>
 .footer {
-    background-image: url("../assets/citybg.png");
-    background-position: bottom;
+    background-color: #000814;
 }
 </style>

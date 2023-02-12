@@ -1,12 +1,16 @@
 <template>
     <div class="w-screen h-screen flex items-center flex-col">
         <HeaderAlt></HeaderAlt>
-        <div class="w-screen flex mt-[5%] overflow-x-auto">
-            <div class="w-[20%] flex flex-col px-8 py-8 justify-start fixed">
+
+        <div class="w-screen flex mt-[90px] overflow-x-auto">
+            
+            <div class="w-[25%] flex flex-col px-8 py-8 justify-start fixed min-w-[330px] max-w-[400px]">
+                
                 <div class="flex gap-4 items-center">
                     <h3 class="text-[24px] mb-2">Transaction Type</h3>
-                    <button @click="clearT" class="px-2 bg-slate-400 rounded-xl text-white">Clear</button>
+                    <!-- <button @click="clearType" class="px-2 bg-slate-400 rounded-xl text-white">Clear</button> -->
                 </div>
+                
                 <ul class="flex flex-col gap-1">
                     <li class="flex gap-2">
                         <input id="Convertible Note" type="checkbox" v-model="filters" value="Convertible Note">
@@ -83,11 +87,11 @@
                     </div>
                 </div>
 
-                <button class="mt-12 bg-slate-400 w-full px-4 py-2 text-white rounded" @click="resetFilters">Clear all</button>
+                <!-- <button class="mt-12 bg-slate-400 w-full px-4 py-2 text-white rounded" @click="resetFilters">Clear all</button> -->
 
             </div>
 
-            <div class="pb-8 mt-[2%] flex flex-wrap gap-4 ml-[20%] w-[70%]">
+            <div class="pb-8 mt-[20px] flex flex-wrap gap-4 ml-[400px] w-[70%]">
 
                 <article v-for="item in selection" class="min-w-[18rem] px-8 py-4 glass flex flex-col items-center gap-2 text-black h-min">
                     <div class="w-36 h-32 flex items-center justify-center ">
@@ -173,6 +177,748 @@ export default {
                     finder: 'Finder',
                     date: new Date("September 2022")
                 },
+                {
+                    img: '/companyLogos/amih.png',
+                    amount: 56025,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("August 2022")
+                },
+                {
+                    img: '/companyLogos/aitox.png',
+                    amount: 675000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("August 2022")
+                },
+                {
+                    img: '/companyLogos/brewbilt.png',
+                    amount: 58500,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("August 2022")
+                },
+                {
+                    img: '/companyLogos/brookmount.png',
+                    amount: 50001,
+                    type:  'Equity',
+                    finder: 'Finder',
+                    date: new Date("August 2022")
+                },
+                {
+                    img: '/companyLogos/cety.png',
+                    amount: 260000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("August 2022")
+                },
+                {
+                    img: '/companyLogos/digerati.png',
+                    amount: 165000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("August 2022")
+                },
+                {
+                    img: '/companyLogos/electromedical.png',
+                    amount: 160000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("August 2022")
+                },
+                {
+                    img: '/companyLogos/gah.png',
+                    amount: 55800,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("August 2022")
+                },
+                {
+                    img: '/companyLogos/marijuana.png',
+                    amount: 92000,
+                    type:  'Equity',
+                    finder: 'Finder',
+                    date: new Date("August 2022")
+                },
+                {
+                    img: '/companyLogos/1847.png',
+                    amount: 600000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("July 2022")
+                },
+                {
+                    img: '/companyLogos/abqq.png',
+                    amount: 80000,
+                    type:  'Convertible Preferred',
+                    finder: 'Finder',
+                    date: new Date("July 2022")
+                },
+                {
+                    img: '/companyLogos/brewbilt.png',
+                    amount: 125000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("July 2022")
+                },
+                {
+                    img: '/companyLogos/cgi.png',
+                    amount: 143250,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("July 2022")
+                },
+                {
+                    img: '/companyLogos/carbonmeta.png',
+                    amount: 50000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("July 2022")
+                },
+                {
+                    img: '/companyLogos/eari.png',
+                    amount: 840000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("July 2022")
+                },
+                {
+                    img: '/companyLogos/kisses.png',
+                    amount: 70000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("July 2022")
+                },
+                {
+                    img: '/companyLogos/konagold.png',
+                    amount: 595000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("July 2022")
+                },
+                {
+                    img: '/companyLogos/greenflower.png',
+                    amount: 186000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("July 2022")
+                },
+                {
+                    img: '/companyLogos/abqq.png',
+                    amount: 128500,
+                    type:  'Convertible Preferred Equity',
+                    finder: 'Finder',
+                    date: new Date("June 2022")
+                },
+                {
+                    img: '/companyLogos/bfyw.png',
+                    amount: 310000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("June 2022")
+                },
+                {
+                    img: '/companyLogos/cgi.png',
+                    amount: 53750,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("June 2022")
+                },
+                {
+                    img: '/companyLogos/gah.png',
+                    amount: 266000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("June 2022")
+                },
+                {
+                    img: '/companyLogos/gzbg.png',
+                    amount: 836000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("June 2022")
+                },
+                {
+                    img: '/companyLogos/marijuana.png',
+                    amount: 114000,
+                    type:  'Equity',
+                    finder: 'Finder',
+                    date: new Date("June 2022")
+                },
+                {
+                    img: '/companyLogos/oncotelic.png',
+                    amount: 335000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("June 2022")
+                },
+                {
+                    img: '/companyLogos/marquie.png',
+                    amount: 38880,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("June 2022")
+                },
+                {
+                    img: '/companyLogos/amih.png',
+                    amount: 265950,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("May 2022")
+                },
+                {
+                    img: '/companyLogos/aitox.png',
+                    amount: 411729,
+                    type:  'Common Stock',
+                    finder: 'Finder',
+                    date: new Date("May 2022")
+                },
+                {
+                    img: '/companyLogos/blackbird.png',
+                    amount: 346500,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("May 2022")
+                },
+                {
+                    img: '/companyLogos/blackbird.png',
+                    amount: 385000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("May 2022")
+                },
+                {
+                    img: '/companyLogos/cgi.png',
+                    amount: 63500,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("May 2022")
+                },
+                {
+                    img: '/companyLogos/carbonmeta.png',
+                    amount: 66111,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("May 2022")
+                },
+                {
+                    img: '/companyLogos/cety.png',
+                    amount: 750000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("May 2022")
+                },
+                {
+                    img: '/companyLogos/eco.png',
+                    amount: 300000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("May 2022")
+                },
+                {
+                    img: '/companyLogos/endexx.png',
+                    amount: 531250,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("May 2022")
+                },
+                {
+                    img: '/companyLogos/goldenstar.png',
+                    amount: 370000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("May 2022")
+                },
+                {
+                    img: '/companyLogos/growlife.png',
+                    amount: 750000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("May 2022")
+                },
+                {
+                    img: '/companyLogos/homebistro.png',
+                    amount: 1535061,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("May 2022")
+                },
+                {
+                    img: '/companyLogos/oxys.png',
+                    amount: 123487,
+                    type:  'Common Stock',
+                    finder: 'Finder',
+                    date: new Date("May 2022")
+                },
+                {
+                    img: '/companyLogos/igi.png',
+                    amount: 725000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("May 2022")
+                },
+                {
+                    img: '/companyLogos/kisses.png',
+                    amount: 150000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("May 2022")
+                },
+                {
+                    img: '/companyLogos/mlfb.png',
+                    amount: 560000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("May 2022")
+                },
+                {
+                    img: '/companyLogos/marijuana.png',
+                    amount: 1100000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("May 2022")
+                },
+                {
+                    img: '/companyLogos/novaccess.png',
+                    amount: 1900000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("May 2022")
+                },
+                {
+                    img: '/companyLogos/oncotelic.png',
+                    amount: 605000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("May 2022")
+                },
+                {
+                    img: '/companyLogos/greenflower.png',
+                    amount: 175000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("May 2022")
+                },
+                {
+                    img: '/companyLogos/yellowleaf.png',
+                    amount: 1000000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("May 2022")
+                },
+                {
+                    img: '/companyLogos/tcc.png',
+                    amount: 1000000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("May 2022")
+                },
+                {
+                    img: '/companyLogos/bfyw.png',
+                    amount: 310000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("April 2022")
+                },
+                {
+                    img: '/companyLogos/bloomios.png',
+                    amount: 137500,
+                    type:  'Convertible Promissory Note',
+                    finder: 'Finder',
+                    date: new Date("April 2022")
+                },
+                {
+                    img: '/companyLogos/brewbilt.png',
+                    amount: 425000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("April 2022")
+                },
+                {
+                    img: '/companyLogos/canb.png',
+                    amount: 150000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("April 2022")
+                },
+                {
+                    img: '/companyLogos/cgi.png',
+                    amount: 380000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("April 2022")
+                },
+                {
+                    img: '/companyLogos/eari.png',
+                    amount: 37000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("April 2022")
+                },
+                {
+                    img: '/companyLogos/gzbc.png',
+                    amount: 693500,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("April 2022")
+                },
+                {
+                    img: '/companyLogos/igi.png',
+                    amount: 296000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("April 2022")
+                },
+                {
+                    img: '/companyLogos/kisses.png',
+                    amount: 330000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("April 2022")
+                },
+                {
+                    img: '/companyLogos/mlfb.png',
+                    amount: 560000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("April 2022")
+                },
+                {
+                    img: '/companyLogos/mlfb.png',
+                    amount: 63000,
+                    type:  'Equity',
+                    finder: 'Finder',
+                    date: new Date("April 2022")
+                },
+                {
+                    img: '/companyLogos/oncotelic.png',
+                    amount: 250000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("April 2022")
+                },
+                {
+                    img: '/companyLogos/bfyw.png',
+                    amount: 310000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("April 2022")
+                },
+                {
+                    img: '',
+                    amount: 200000000,
+                    type:  'Equity Line of Credit',
+                    finder: 'Finder',
+                    date: new Date("April 2022")
+                },
+                {
+                    img: '/companyLogos/greenflower.png',
+                    amount: 150000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("April 2022")
+                },
+                {
+                    img: '/companyLogos/victory.png',
+                    amount: 50000,
+                    type:  'Equity',
+                    finder: 'Finder',
+                    date: new Date("April 2022")
+                },
+                {
+                    img: '/companyLogos/virtual.png',
+                    amount: 470000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("April 2022")
+                },
+                {
+                    img: '/companyLogos/yuka.png',
+                    amount: 300000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("April 2022")
+                },
+                {
+                    img: '/companyLogos/bfyw.png',
+                    amount: 50000,
+                    type:  'Equity',
+                    finder: 'Finder',
+                    date: new Date("April 2022")
+                },
+                {
+                    img: '/companyLogos/abqq.png',
+                    amount: 83500,
+                    type:  'Convertible Preferred Equity',
+                    finder: 'Finder',
+                    date: new Date("March 2022")
+                },
+                {
+                    img: '/companyLogos/bloomios.png',
+                    amount: 172200,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("March 2022")
+                },
+                {
+                    img: '/companyLogos/brewbilt.png',
+                    amount: 279000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("March 2022")
+                },
+                {
+                    img: '/companyLogos/brookmount.png',
+                    amount: 60000,
+                    type:  'Equity',
+                    finder: 'Finder',
+                    date: new Date("March 2022")
+                },
+                {
+                    img: '/companyLogos/canb.png',
+                    amount: 600000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("March 2022")
+                },
+                {
+                    img: '/companyLogos/carbonmeta.png',
+                    amount: 55000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("March 2022")
+                },
+                {
+                    img: '/companyLogos/deepgreen.png',
+                    amount: 375000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("March 2022")
+                },
+                {
+                    img: '/companyLogos/eari.png',
+                    amount: 36667,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("March 2022")
+                },
+                {
+                    img: '/companyLogos/oxys.png',
+                    amount: 133280,
+                    type:  'Convertible Preferred',
+                    finder: 'Finder',
+                    date: new Date("March 2022")
+                },
+                {
+                    img: '/companyLogos/mlfb.png',
+                    amount: 39900,
+                    type:  'Equity',
+                    finder: 'Finder',
+                    date: new Date("March 2022")
+                },
+                {
+                    img: '/companyLogos/greenflower.png',
+                    amount: 177500,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("March 2022")
+                },
+                {
+                    img: '/companyLogos/smartmetric.png',
+                    amount: 475000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("March 2022")
+                },
+                {
+                    img: '/companyLogos/smartmetric.png',
+                    amount: 5000000,
+                    type:  'Equity Line of Credit',
+                    finder: 'Finder',
+                    date: new Date("March 2022")
+                },
+                {
+                    img: '/companyLogos/marquie.png',
+                    amount: 38880,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("March 2022")
+                },
+                {
+                    img: '/companyLogos/virtual.png',
+                    amount: 235000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("March 2022")
+                },
+                {
+                    img: '/companyLogos/yuka.png',
+                    amount: 50000,
+                    type:  'Equity',
+                    finder: 'Finder',
+                    date: new Date("March 2022")
+                },
+                {
+                    img: '/companyLogos/brewbilt.png',
+                    amount: 279000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("February 2022")
+                },
+                {
+                    img: '/companyLogos/cgi.png',
+                    amount: 1168500,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("February 2022")
+                },
+                {
+                    img: '/companyLogos/foothills.png',
+                    amount: 390000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("February 2022")
+                },
+                {
+                    img: '/companyLogos/gah.png',
+                    amount: 266000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("February 2022")
+                },
+                {
+                    img: '/companyLogos/oxys.png',
+                    amount: 51000,
+                    type:  'Convertible Preferred',
+                    finder: 'Finder',
+                    date: new Date("February 2022")
+                },
+                {
+                    img: '/companyLogos/igi.png',
+                    amount: 370000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("February 2022")
+                },
+                {
+                    img: '/companyLogos/iinx.png',
+                    amount: 500000,
+                    type:  'Amortizing Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("February 2022")
+                },
+                {
+                    img: '/companyLogos/smartmetric.png',
+                    amount: 475000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("February 2022")
+                },
+                {
+                    img: '/companyLogos/marquie.png',
+                    amount: 245000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("February 2022")
+                },
+                {
+                    img: '/companyLogos/trutankless.png',
+                    amount: 385000,
+                    type:  'Amortizing Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("February 2022")
+                },
+                {
+                    img: '/companyLogos/abqq.png',
+                    amount: 279000,
+                    type:  'Convertible Preferred Equity',
+                    finder: 'Finder',
+                    date: new Date("January 2022")
+                },
+                {
+                    img: '/companyLogos/brewbilt.png',
+                    amount: 140000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("January 2022")
+                },
+                {
+                    img: '/companyLogos/brewbilt.png',
+                    amount: 5000000,
+                    type:  'Equity Line of Credit',
+                    finder: 'Finder',
+                    date: new Date("January 2022")
+                },
+                {
+                    img: '/companyLogos/brookmount.png',
+                    amount: 96000,
+                    type:  'Equity',
+                    finder: 'Finder',
+                    date: new Date("January 2022")
+                },
+                {
+                    img: '/companyLogos/digerati.png',
+                    amount: 460000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("January 2022")
+                },
+                {
+                    img: '/companyLogos/eco.png',
+                    amount: 60000,
+                    type:  'Equity',
+                    finder: 'Finder',
+                    date: new Date("January 2022")
+                },
+                {
+                    img: '/companyLogos/warmup.png',
+                    amount: 350000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("January 2022")
+                },
+                {
+                    img: '/companyLogos/warmup.png',
+                    amount: 5000000,
+                    type:  'Equity Line of Credit',
+                    finder: 'Finder',
+                    date: new Date("January 2022")
+                },
+                {
+                    img: '/companyLogos/oxys.png',
+                    amount: 11160,
+                    type:  'Convertible Preferred',
+                    finder: 'Finder',
+                    date: new Date("January 2022")
+                },
+                {
+                    img: '/companyLogos/iinx.png',
+                    amount: 500000,
+                    type:  'Amortizing Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("January 2022")
+                },
+                {
+                    img: '/companyLogos/marijuana.png',
+                    amount: 60000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("January 2022")
+                },
+                {
+                    img: '/companyLogos/smartmetric.png',
+                    amount: 950000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("January 2022")
+                },
+                {
+                    img: '/companyLogos/sugarmade.png',
+                    amount: 485000,
+                    type:  'Convertible Note',
+                    finder: 'Finder',
+                    date: new Date("January 2022")
+                },
                 
             ]
         }
@@ -192,7 +938,7 @@ export default {
             this.dateRange = null;
         },
         clearType() {
-
+            this.filters = null;
         }
 
     },

@@ -5,6 +5,10 @@ export default defineNuxtConfig({
         '@nuxtjs/tailwindcss',
         'nuxt-icon'
     ],
+
+    nitro: {
+        preset: 'aws-lambda'
+    }
     
 
 });
