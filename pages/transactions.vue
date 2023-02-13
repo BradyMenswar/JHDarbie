@@ -4,7 +4,7 @@
 
         <div class="w-screen flex mt-[90px] overflow-x-auto">
             
-            <div class="w-[25%] flex flex-col px-8 py-8 justify-start fixed min-w-[330px] max-w-[400px]">
+            <div class="w-[25%] flex flex-col px-8 justify-start fixed min-w-[330px] max-w-[400px]">
                 
                 <div class="flex gap-4 items-center">
                     <h3 class="text-[24px] mb-2">Transaction Type</h3>

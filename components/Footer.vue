@@ -18,18 +18,18 @@
 
         </div>
         <div class="flex gap-8 items-center justify-center">
-            <p>Customer Service</p>
-            <p>Trading</p>
-            <p>Information</p>
-            <p>Recruiter</p>
+            <p class="cursor-pointer">Customer Service</p>
+            <p class="cursor-pointer">Trading</p>
+            <p class="cursor-pointer">Information</p>
+            <p class="cursor-pointer">Recruiter</p>
         </div>
         <div class="flex gap-8 items-center justify-center mt-4 underline">
-            <p>Disclosures</p>
-            <p>Privacy Policy</p>
-            <p>Continuity Plan</p>
-            <p>SEC Rule 606</p>
-            <p>FINRA Rule 2265</p>
-            <p>Client Relationship Summary</p>
+            <a href="">Disclosures</a>
+            <a href="">Privacy Policy</a>
+            <a href="">Continuity Plan</a>
+            <a href="">SEC Rule 606</a>
+            <a href="">FINRA Rule 2265</a>
+            <a href="">Client Relationship Summary</a>
             
         </div>
     </div>
