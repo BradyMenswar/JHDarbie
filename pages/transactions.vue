@@ -7,11 +7,11 @@
             <div class="w-[25%] flex flex-col px-8 justify-start fixed min-w-[330px] max-w-[400px]">
                 
                 <div class="flex gap-4 items-center">
-                    <h3 class="text-[24px] mb-2">Transaction Type</h3>
+                    <h3 class="text-[150%] mb-2">Transaction Type</h3>
                     <!-- <button @click="clearType" class="px-2 bg-slate-400 rounded-xl text-white">Clear</button> -->
                 </div>
                 
-                <ul class="flex flex-col gap-1">
+                <ul class="flex flex-col gap-1 text-[100%]">
                     <li class="flex gap-2">
                         <input id="Convertible Note" type="checkbox" v-model="filters" value="Convertible Note">
                         <label for="Convertible Note">Convertible Note</label></li>
@@ -53,10 +53,10 @@
                         <label for="Equity Financing">Equity Financing</label></li>
                 </ul>
                 <div class="flex gap-4 items-center mt-4">
-                    <h3 class="text-[24px] mb-2">Date</h3>
+                    <h3 class="text-[1.5rem] mb-2">Date</h3>
                     <button @click="clearDate" class="px-2 bg-slate-400 rounded-xl text-white">Clear</button>
                 </div>
-                <div class="flex flex-col gap-2">
+                <div class="flex flex-col gap-2 text-[1rem]">
                     <div class="flex gap-2">
                         <input type="radio" id="month" value="1" v-model="dateRange">
                         <label for="month">Last Month</label>
