@@ -1,7 +1,7 @@
 <template>
     <div class="flex gap-8 justify-center flex-wrap">
-        <article class="min-w-[18rem] px-8 py-4 glass flex flex-col items-center gap-2 text-white h-min">
-            <div class="w-36 h-32 flex items-center justify-center ">
+        <article class="min-w-[200px] px-8 py-4 glass flex flex-col justify-start items-center gap-2 text-white w-[20%]">
+            <div class="w-[50%] h-[50%] flex items-center justify-center mt-4 mb-4">
                 <img class="w-full h-min" src="/companyLogos/brewbilt.png" alt="Company Logo">
             </div>
             <h4 class="text-[24px]">$100,000</h4>
@@ -11,8 +11,8 @@
                 <p class="text-[16px]">October 2022</p>
             </div>
         </article>
-        <article class="min-w-[18rem] px-8 py-4 glass flex flex-col items-center gap-2 text-white h-min">
-            <div class="w-36 h-32 flex items-center justify-center ">
+        <article class="min-w-[200px] px-8 py-4 glass flex flex-col justify-start items-center gap-2 text-white w-[20%]">
+            <div class="w-[50%] h-[50%] flex items-center justify-center mt-4 mb-4">
                 <img class="w-full h-min" src="/companyLogos/blackbird.png" alt="Company Logo">
             </div>
             <h4 class="text-[24px]">$130,500</h4>
@@ -22,8 +22,8 @@
                 <p class="text-[16px]">September 2022</p>
             </div>
         </article>
-        <article class="min-w-[18rem] px-8 py-4 glass flex flex-col items-center gap-2 text-white h-min">
-            <div class="w-36 h-32 flex items-center justify-center ">
+        <article class="min-w-[200px] px-8 py-4 glass flex flex-col items-center gap-2 text-white w-[20%]">
+            <div class="w-[50%] h-[50%] flex items-center justify-center mt-4 mb-4">
                 <img class="w-full h-min" src="/companyLogos/brewbilt.png" alt="Company Logo">
             </div>
             <h4 class="text-[24px]">$112,500</h4>
@@ -33,8 +33,8 @@
                 <p class="text-[16px]">September 2022</p>
             </div>
         </article>
-        <article class="min-w-[18rem] px-8 py-4 glass flex flex-col items-center gap-2 text-white h-min">
-            <div class="w-36 h-32 flex items-center justify-center ">
+        <article class="min-w-[200px] px-8 py-4 glass flex flex-col items-center gap-2 text-white w-[20%]">
+            <div class="w-[50%] h-[50%] flex items-center justify-center mt-4 mb-4">
                 <img class="w-full h-min" src="/companyLogos/cgi.png" alt="Company Logo">
             </div>
             <h4 class="text-[24px]">$110,700</h4>
