@@ -5,7 +5,7 @@
       <h1 class="mt-[8%] text-[2.5vw] text-white font-semibold">Lorem ipsum dolor sit amet</h1>
       <h3 class="mt-[20px] text-[1.25vw] w-[45rem] text-center text-white">Etiam sodales iaculis tortor, id cursus odio viverra id. Curabitur sed risus bibendum.</h3>
       <button class="bg-white px-8 py-4 mt-8 text-[1vw] rounded font-semibold text-black hover:bg-sky-300 hover:text-white transition-all duration-300">Book a Consultation</button>
-      <p class="mt-[2%] text-center text-white text-[16px]">Recent Transactions</p>
+      <p class="mt-4 text-center text-white text-[16px]">Recent Transactions</p>
       <Deck class="mt-[20px]"></Deck>
     </div>
      
