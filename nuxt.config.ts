@@ -6,9 +6,6 @@ export default defineNuxtConfig({
         'nuxt-icon'
     ],
 
-    nitro: {
-        preset: 'aws-lambda'
-    },
     
 
 });
