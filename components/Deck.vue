@@ -1,33 +1,49 @@
 <template>
-    <div class="flex gap-8">
-        <div class="px-16 py-4 glass flex flex-col items-center gap-2 text-white">
+    <div class="flex gap-8 justify-center flex-wrap">
+        <article class="min-w-[18rem] px-8 py-4 glass flex flex-col items-center gap-2 text-white h-min">
             <div class="w-36 h-32 flex items-center justify-center ">
-                <img class="w-full h-min" src="/companyLogos/blackbird.png" alt="Company Logo">
+                <img class="w-full h-min" src="/companyLogos/brewbilt.png" alt="Company Logo">
             </div>
             <h4 class="text-[24px]">$100,000</h4>
             <p class="text-[16px]">Convertible Note</p>
-        </div>
-        <div class="px-16 py-4 glass flex flex-col items-center gap-2 text-white">
+            <div class="flex items-center mt-2 gap-4">
+                <p class="tag text-[14px]">Finder</p>
+                <p class="text-[16px]">October 2022</p>
+            </div>
+        </article>
+        <article class="min-w-[18rem] px-8 py-4 glass flex flex-col items-center gap-2 text-white h-min">
             <div class="w-36 h-32 flex items-center justify-center ">
                 <img class="w-full h-min" src="/companyLogos/blackbird.png" alt="Company Logo">
             </div>
-            <h4 class="text-[24px]">$100,000</h4>
+            <h4 class="text-[24px]">$130,500</h4>
             <p class="text-[16px]">Convertible Note</p>
-        </div>
-        <div class="px-16 py-4 glass flex flex-col items-center gap-2 text-white">
-            <div class="w-36 h-32 flex items-center justify-center ">
-                <img class="w-full h-min" src="/companyLogos/blackbird.png" alt="Company Logo">
+            <div class="flex items-center mt-2 gap-4">
+                <p class="tag text-[14px]">Finder</p>
+                <p class="text-[16px]">September 2022</p>
             </div>
-            <h4 class="text-[24px]">$100,000</h4>
-            <p class="text-[16px]">Convertible Note</p>
-        </div>
-        <div class="px-16 py-4 glass flex flex-col items-center gap-2 text-white">
+        </article>
+        <article class="min-w-[18rem] px-8 py-4 glass flex flex-col items-center gap-2 text-white h-min">
             <div class="w-36 h-32 flex items-center justify-center ">
-                <img class="w-full h-min" src="/companyLogos/blackbird.png" alt="Company Logo">
+                <img class="w-full h-min" src="/companyLogos/brewbilt.png" alt="Company Logo">
             </div>
-            <h4 class="text-[24px]">$100,000</h4>
+            <h4 class="text-[24px]">$112,500</h4>
             <p class="text-[16px]">Convertible Note</p>
-        </div>
+            <div class="flex items-center mt-2 gap-4">
+                <p class="tag text-[14px]">Finder</p>
+                <p class="text-[16px]">September 2022</p>
+            </div>
+        </article>
+        <article class="min-w-[18rem] px-8 py-4 glass flex flex-col items-center gap-2 text-white h-min">
+            <div class="w-36 h-32 flex items-center justify-center ">
+                <img class="w-full h-min" src="/companyLogos/cgi.png" alt="Company Logo">
+            </div>
+            <h4 class="text-[24px]">$110,700</h4>
+            <p class="text-[16px]">Convertible Note</p>
+            <div class="flex items-center mt-2 gap-4">
+                <p class="tag text-[14px]">Finder</p>
+                <p class="text-[16px]">September 2022</p>
+            </div>
+        </article>
     </div>
 </template>
 
