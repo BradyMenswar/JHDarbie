@@ -18,18 +18,18 @@
 
         </div>
         <div class="flex gap-8 items-center justify-center">
-            <p class="cursor-pointer">Customer Service</p>
-            <p class="cursor-pointer">Trading</p>
-            <p class="cursor-pointer">Information</p>
-            <p class="cursor-pointer">Recruiter</p>
+            <a href="mailto:customerservice@jhdarbie.com" class="cursor-pointer" >Customer Service</a>
+            <a href="mailto:trading@jhdarbie.com" class="cursor-pointer" >Trading</a>
+            <a href="mailto:info@jhdarbie.com" class="cursor-pointer" >Information</a>
+            <a href="mailto:Recruiter@jhdarbie.com" class="cursor-pointer" >Recruiter</a>
         </div>
         <div class="flex gap-8 items-center justify-center mt-4 underline">
-            <a href="">Disclosures</a>
+            <a href="/footer/Disclosures.pdf">Disclosures</a>
             <a href="">Privacy Policy</a>
-            <a href="">Continuity Plan</a>
+            <a href="/footer/JHD_BUSINESS_CONTINUITY_PLAN (1).pdf">Continuity Plan</a>
             <a href="">SEC Rule 606</a>
-            <a href="">FINRA Rule 2265</a>
-            <a href="">Client Relationship Summary</a>
+            <a href="https://www.finra.org/rules-guidance/rulebooks/finra-rules/2265">FINRA Rule 2265</a>
+            <a href="/footer/JHD_Form_CRS_06-26-2020.pdf">Client Relationship Summary</a>
             
         </div>
     </div>
