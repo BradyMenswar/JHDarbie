@@ -8,6 +8,7 @@
       <p class="mt-4 text-center text-white text-[16px]">Recent Transactions</p>
       <Deck class="mt-[20px]"></Deck>
     </div>
+    <Footer />
      
   </div>
  
