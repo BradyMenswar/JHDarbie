@@ -24,12 +24,12 @@
             <a href="mailto:Recruiter@jhdarbie.com" class="cursor-pointer" >Recruiter</a>
         </div>
         <div class="flex gap-8 items-center justify-center mt-4 underline">
-            <a href="/footer/Disclosures.pdf">Disclosures</a>
+            <a target="_blank" rel="noopener noreferrer" href="/footer/Disclosures.pdf">Disclosures</a>
             <a href="">Privacy Policy</a>
-            <a href="/footer/JHD_BUSINESS_CONTINUITY_PLAN (1).pdf">Continuity Plan</a>
+            <a target="_blank" rel="noopener noreferrer" href="/footer/JHD_BUSINESS_CONTINUITY_PLAN (1).pdf">Continuity Plan</a>
             <a href="">SEC Rule 606</a>
-            <a href="https://www.finra.org/rules-guidance/rulebooks/finra-rules/2265">FINRA Rule 2265</a>
-            <a href="/footer/JHD_Form_CRS_06-26-2020.pdf">Client Relationship Summary</a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.finra.org/rules-guidance/rulebooks/finra-rules/2265">FINRA Rule 2265</a>
+            <a target="_blank" rel="noopener noreferrer" href="/footer/JHD_Form_CRS_06-26-2020.pdf">Client Relationship Summary</a>
             
         </div>
     </div>
