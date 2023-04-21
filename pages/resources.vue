@@ -6,7 +6,7 @@
                 <h2 class="font-semibold text-[96px] text-white"></h2>
             </div>
             <div class="flex">
-                <article class="flex flex-col gap-2 px-16 py-8">
+                <article class="flex flex-col gap-2 px-16 py-8 w-full">
                     <h2 class="text-[24px] font-bold">Axos Customer Forms</h2>
                     <div class="flex gap-2 items-center">
                         <h3 class="text-[20px] font-semibold">Fee Schedule</h3>
@@ -137,7 +137,7 @@
                     <a class="px-4 underline text-blue-600 hover:no-underline" target="_blank" rel="noopener noreferrer" href="/resources/COR-IrrevocableStockorBondPower.pdf">Issuer Letter (Without Legend)</a>
                     <a class="px-4 underline text-blue-600 hover:no-underline" target="_blank" rel="noopener noreferrer" href="/resources/COR-Issuer Letter Refusal.pdf">Issuer Letter Refusal</a>
                 </article>
-                <article class="flex flex-col gap-2 px-16 py-8">
+                <article class="flex flex-col gap-2 px-16 py-8 w-full">
                     <h2 class="text-[24px] font-bold">Vision Customer Forms</h2>
                     <h3 class="text-[20px] font-semibold">Fee Schedule</h3>
                     <a class="px-4 underline text-blue-600 hover:no-underline" target="_blank" rel="noopener noreferrer" href="/resources/Fee_Schedule-VISION.pdf">Vision Fee Schedule</a>
@@ -201,8 +201,10 @@
                     <a class="px-4 underline text-blue-600 hover:no-underline" target="_blank" rel="noopener noreferrer" href="/resources/euroclear_request_form.pdf">Euroclear Free Delivery Request Form</a>
                     <a class="px-4 underline text-blue-600 hover:no-underline" target="_blank" rel="noopener noreferrer" href="/resources/customer_ach_and_wire_activation_form.pdf">Customer ACH & Wire Activation Form</a>
                 </article>
-                <article class="flex flex-col gap-2 px-16 py-8">
+                <article class="flex flex-col gap-2 px-16 py-8 w-full">
                     <h2 class="text-[24px] font-bold">Funding Accounts</h2>
+                    <h3 class="text-[20px] font-semibold">Disclaimer</h3>
+                    <p>In compliance with the procedures of our clearing firm, Axos Clearing LLC., the only acceptable method of payment is by a personal check, U.S. bank wire, or U.S. bank check.  Any checks we receive from a trust, or corporation on behalf of an individual account cannot be accepted and will be returned to you immediately.</p>
                     <h3 class="text-[20px] font-semibold">Check Instructions</h3>
                     <h4 class="text-[16px] font-semibold">Make all checks payable to:</h4>
                     <p class="px-4">Axos Clearing, LLC.</p>
