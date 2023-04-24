@@ -27,38 +27,38 @@
 
 				<div class="px-16 w-full flex gap-4 justify-center my-8 py-4 flex-wrap">
 					<div
-						class="w-[15%] aspect-square glass rounded-lg flex flex-col items-center justify-start text-center gap-4 pt-[4.5rem] px-4 pb-4 min-w-[250px]"
+						class="w-[15%] aspect-square glass2 rounded-lg flex flex-col items-center justify-start text-center gap-4 pt-[4.5rem] px-4 pb-4 min-w-[250px]"
 					>
 						<Icon class="" name="carbon:time" />
 						<h3 class="text-[24px]">Retirement Planning</h3>
 					</div>
 
 					<div
-						class="w-[15%] aspect-square glass rounded-lg flex flex-col items-center justify-start text-center gap-4 pt-[4.5rem] px-4 pb-4 min-w-[250px]"
+						class="w-[15%] aspect-square glass2 rounded-lg flex flex-col items-center justify-start text-center gap-4 pt-[4.5rem] px-4 pb-4 min-w-[250px]"
 					>
 						<Icon class="" name="carbon:paint-brush" />
 						<h3 class="text-[24px]">Alternative Investments</h3>
 					</div>
 					<div
-						class="w-[15%] aspect-square glass rounded-lg flex flex-col items-center justify-start text-center gap-4 pt-[4.5rem] px-4 pb-4 min-w-[250px]"
+						class="w-[15%] aspect-square glass2 rounded-lg flex flex-col items-center justify-start text-center gap-4 pt-[4.5rem] px-4 pb-4 min-w-[250px]"
 					>
 						<Icon class="" name="carbon:loop" />
 						<h3 class="text-[24px]">Fixed Income</h3>
 					</div>
 					<div
-						class="w-[15%] aspect-square glass rounded-lg flex flex-col items-center justify-start text-center gap-4 pt-[4.5rem] px-4 pb-4 min-w-[250px]"
+						class="w-[15%] aspect-square glass2 rounded-lg flex flex-col items-center justify-start text-center gap-4 pt-[4.5rem] px-4 pb-4 min-w-[250px]"
 					>
 						<Icon class="" name="carbon:education" />
 						<h3 class="text-[24px]">Education Funding</h3>
 					</div>
 					<div
-						class="w-[15%] aspect-square glass rounded-lg flex flex-col items-center justify-start text-center gap-4 pt-[4.5rem] px-4 pb-4 min-w-[250px]"
+						class="w-[15%] aspect-square glass2 rounded-lg flex flex-col items-center justify-start text-center gap-4 pt-[4.5rem] px-4 pb-4 min-w-[250px]"
 					>
 						<Icon class="" name="carbon:user-service-desk" />
 						<h3 class="text-[24px]">Consultations</h3>
 					</div>
 					<div
-						class="w-[15%] aspect-square glass rounded-lg flex flex-col items-center justify-start text-center gap-4 pt-[4.5rem] px-4 pb-4 min-w-[250px]"
+						class="w-[15%] aspect-square glass2 rounded-lg flex flex-col items-center justify-start text-center gap-4 pt-[4.5rem] px-4 pb-4 min-w-[250px]"
 					>
 						<Icon class="" name="carbon:devices" />
 						<h3 class="text-[24px]">Online Service</h3>
@@ -75,5 +75,13 @@
 	background-image: url("../assets/citylow.jpg");
 	background-position: bottom;
 	background-size: cover;
+}
+
+.glass2 {
+	background: rgba(255, 255, 255, 0.4);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
 }
 </style>

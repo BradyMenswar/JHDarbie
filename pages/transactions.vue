@@ -15,7 +15,7 @@
 			<article
 				v-for="item in tombstones2023.slice().reverse()"
 				:id="item.id"
-				class="min-w-[18rem] px-8 py-4 glass flex flex-col items-center gap-2 text-black h-min"
+				class="min-w-[18rem] px-8 py-4 glass2 flex flex-col items-center gap-2 text-black h-min"
 			>
 				<div class="w-36 h-32 flex items-center justify-center">
 					<img class="w-fit" :src="item.img" alt="Company Logo" />
@@ -41,7 +41,7 @@
 		<div class="px-10 py-8 flex flex-wrap gap-4 justify-center">
 			<article
 				v-for="item in tombstones2022.slice().reverse()"
-				class="min-w-[18rem] px-8 py-4 glass flex flex-col items-center gap-2 text-black h-min"
+				class="min-w-[18rem] px-8 py-4 glass2 flex flex-col items-center gap-2 text-black h-min"
 			>
 				<div class="w-36 h-32 flex items-center justify-center">
 					<img class="w-fit max-h-[100%]" :src="item.img" alt="Company Logo" />
@@ -69,7 +69,7 @@
 		>
 			<article
 				v-for="item in tombstones2021.slice().reverse()"
-				class="min-w-[18rem] px-8 py-4 glass flex flex-col items-center gap-2 text-black h-min"
+				class="min-w-[18rem] px-8 py-4 glass2 flex flex-col items-center gap-2 text-black h-min"
 			>
 				<div class="w-36 h-32 flex items-center justify-center">
 					<img class="w-fit" :src="item.img" alt="Company Logo" />
@@ -97,7 +97,7 @@
 		>
 			<article
 				v-for="item in tombstones2020.slice().reverse()"
-				class="min-w-[18rem] px-8 py-4 glass flex flex-col items-center gap-2 text-black h-min"
+				class="min-w-[18rem] px-8 py-4 glass2 flex flex-col items-center gap-2 text-black h-min"
 			>
 				<div class="w-36 h-32 flex items-center justify-center">
 					<img class="w-fit" :src="item.img" alt="Company Logo" />
