@@ -88,7 +88,7 @@
 						target="_blank"
 						rel="noopener noreferrer"
 						href="/resources/COR-Certificate of Sole Proprietorship.v05.05.WEB_.pdf"
-						>Certificate of Sole Propietorship</a
+						>Certificate of Sole Proprietorship</a
 					>
 					<a
 						class="px-4 underline text-blue-600 hover:no-underline"
@@ -333,7 +333,7 @@
 						target="_blank"
 						rel="noopener noreferrer"
 						href="/resources/COR_NON-TRANSFERABLE WORTHLESS SECURITY_JNL.pdf"
-						>Journal of Non-Transferable Wortheless Securities</a
+						>Journal of Non-Transferable Worthless Securities</a
 					>
 					<a
 						class="px-4 underline text-blue-600 hover:no-underline"
@@ -585,7 +585,7 @@
 						>Trusted Contact</a
 					>
 					<div class="flex gap-2 items-center">
-						<h3 class="text-[20px] font-semibold">Securites Deposits</h3>
+						<h3 class="text-[20px] font-semibold">Security Deposits</h3>
 						<!-- <Icon name="carbon:chevron-up" size="25px"></Icon> -->
 					</div>
 					<a
@@ -956,7 +956,7 @@
 						target="_blank"
 						rel="noopener noreferrer"
 						href="/resources/Money_Market_Sweep.pdf"
-						>Money Markey Sweep (Stand Alone)</a
+						>Money Market Sweep (Stand Alone)</a
 					>
 					<a
 						class="px-4 underline text-blue-600 hover:no-underline"
@@ -1093,9 +1093,9 @@
 					<p class="px-4">Axos Clearing, LLC.</p>
 					<h4 class="text-[16px] font-semibold">Mail to:</h4>
 					<p class="px-4">Axos Clearing</p>
+					<p class="px-4">Attention: Treasury</p>
 					<p class="px-4">15950 West Dodge Road, Suite 300</p>
 					<p class="px-4">Omaha, NE 68118</p>
-					<p class="px-4">Attention: Treasury</p>
 					<h4 class="text-[16px] font-semibold">All checks must include:</h4>
 					<p class="px-4">Date</p>
 					<p class="px-4">

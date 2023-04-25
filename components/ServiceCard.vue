@@ -1,21 +1,33 @@
 <template>
-	<div class="px-16 py-4 glass2 flex flex-col items-center gap-2">
-		<img class="w-24" :src="clock" alt="Icon" />
-		<h4 class="mt-2 text-[24px]">{{ text }}</h4>
+	<div
+		:class="widthClass"
+		class="glass2 aspect-square rounded-lg flex flex-col items-center justify-center text-center gap-4 p-4 min-w-[250px]"
+	>
+		<Icon class="" v-bind:name="icon" />
+		<h3 class="text-[24px]">{{ title }}</h3>
 	</div>
 </template>
 
-<style></style>
-
 <script>
 export default {
-	data() {
-		return {
-			clock: "~/assets/clock.svg",
-		};
-	},
 	props: {
-		text: String,
+		title: {
+			type: String,
+			required: true,
+		},
+		icon: {
+			type: String,
+			required: true,
+		},
+		width: {
+			type: String,
+			required: true,
+		},
+	},
+	computed: {
+		widthClass() {
+			return `w-[${this.width}]`;
+		},
 	},
 };
 </script>

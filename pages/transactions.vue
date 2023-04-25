@@ -10,113 +10,38 @@
 				<a href="#2022" class="">2022</a>
 			</div>
 		</div>
-		<h3 id="2023" class="px-24 mt-8 text-[32px] font-semibold">2023</h3>
-		<div class="px-10 py-8 w-full flex flex-wrap gap-4 overflow-x-auto">
-			<article
-				v-for="item in tombstones2023.slice().reverse()"
-				:id="item.id"
-				class="min-w-[18rem] px-8 py-4 glass2 flex flex-col items-center gap-2 text-black h-min"
-			>
-				<div class="w-36 h-32 flex items-center justify-center">
-					<img class="w-fit" :src="item.img" alt="Company Logo" />
-				</div>
-				<h4 class="text-[24px]">${{ item.amount.toLocaleString("en-US") }}</h4>
-				<p class="text-[16px]">{{ item.type }}</p>
-				<div class="flex items-center mt-2 gap-4">
-					<p class="tag text-[14px]">{{ item.finder }}</p>
-					<p class="text-[16px]">
-						{{
-							item.date.toLocaleDateString("default", {
-								month: "long",
-								year: "numeric",
-							})
-						}}
-					</p>
-				</div>
-			</article>
-		</div>
-		<h3 id="2022" class="px-24 pt-[90px] mt-[-64px] text-[32px] font-semibold">
-			2022
-		</h3>
-		<div class="px-10 py-8 flex flex-wrap gap-4 justify-center">
-			<article
-				v-for="item in tombstones2022.slice().reverse()"
-				class="min-w-[18rem] px-8 py-4 glass2 flex flex-col items-center gap-2 text-black h-min"
-			>
-				<div class="w-36 h-32 flex items-center justify-center">
-					<img class="w-fit max-h-[100%]" :src="item.img" alt="Company Logo" />
-				</div>
-				<h4 class="text-[24px]">${{ item.amount.toLocaleString("en-US") }}</h4>
-				<p class="text-[16px]">{{ item.type }}</p>
-				<div class="flex items-center mt-2 gap-4">
-					<p class="tag text-[14px]">{{ item.finder }}</p>
-					<p class="text-[16px]">
-						{{
-							item.date.toLocaleDateString("default", {
-								month: "long",
-								year: "numeric",
-							})
-						}}
-					</p>
-				</div>
-			</article>
-		</div>
-		<h3 id="2021" class="px-24 pt-[90px] mt-[-64px] text-[32px] font-semibold">
-			2021
-		</h3>
-		<div
-			class="justify-center px-10 py-8 w-full flex flex-wrap gap-4 overflow-x-auto"
+		<TransactionDeck
+			v-bind:tombstones="tombstones2023"
+			year="2023"
+			pt="0px"
+			mt="32px"
+		></TransactionDeck>
+		<TransactionDeck
+			v-bind:tombstones="tombstones2022"
+			year="2022"
+			pt="90px"
+			mt="-64px"
+		></TransactionDeck>
+		<TransactionDeck
+			v-bind:tombstones="tombstones2021"
+			year="2021"
+			pt="90px"
+			mt="-64px"
+		></TransactionDeck>
+		<TransactionDeck
+			v-bind:tombstones="tombstones2020"
+			year="2020"
+			pt="90px"
+			mt="-64px"
+		></TransactionDeck>
+		<Footer></Footer>
+		<a
+			v-if="showArrow"
+			href="#"
+			class="fixed bottom-8 right-8 flex gap-2 items-center p-2 bg-sky-200 rounded-full"
 		>
-			<article
-				v-for="item in tombstones2021.slice().reverse()"
-				class="min-w-[18rem] px-8 py-4 glass2 flex flex-col items-center gap-2 text-black h-min"
-			>
-				<div class="w-36 h-32 flex items-center justify-center">
-					<img class="w-fit" :src="item.img" alt="Company Logo" />
-				</div>
-				<h4 class="text-[24px]">${{ item.amount.toLocaleString("en-US") }}</h4>
-				<p class="text-[16px]">{{ item.type }}</p>
-				<div class="flex items-center mt-2 gap-4">
-					<p class="tag text-[14px]">{{ item.finder }}</p>
-					<p class="text-[16px]">
-						{{
-							item.date.toLocaleDateString("default", {
-								month: "long",
-								year: "numeric",
-							})
-						}}
-					</p>
-				</div>
-			</article>
-		</div>
-		<h3 id="2020" class="px-24 pt-[90px] mt-[-64px] text-[32px] font-semibold">
-			2020
-		</h3>
-		<div
-			class="px-10 py-8 w-full flex flex-wrap gap-4 justify-center overflow-x-auto"
-		>
-			<article
-				v-for="item in tombstones2020.slice().reverse()"
-				class="min-w-[18rem] px-8 py-4 glass2 flex flex-col items-center gap-2 text-black h-min"
-			>
-				<div class="w-36 h-32 flex items-center justify-center">
-					<img class="w-fit" :src="item.img" alt="Company Logo" />
-				</div>
-				<h4 class="text-[24px]">${{ item.amount.toLocaleString("en-US") }}</h4>
-				<p class="text-[16px]">{{ item.type }}</p>
-				<div class="flex items-center mt-2 gap-4">
-					<p class="tag text-[14px]">{{ item.finder }}</p>
-					<p class="text-[16px]">
-						{{
-							item.date.toLocaleDateString("default", {
-								month: "long",
-								year: "numeric",
-							})
-						}}
-					</p>
-				</div>
-			</article>
-		</div>
+			<Icon name="carbon:chevron-up" width="48px" height="48px" />
+		</a>
 	</div>
 </template>
 
@@ -561,7 +486,7 @@ export default {
 					date: new Date("April 2022"),
 				},
 				{
-					img: "/companyLogos/gzbc.png",
+					img: "/companyLogos/gzbg.png",
 					amount: 693500,
 					type: "Convertible Note",
 					finder: "Finder",
@@ -1641,7 +1566,7 @@ export default {
 					date: new Date("January 2021"),
 				},
 				{
-					img: "/companyLogos/4less.png",
+					img: "/companyLogos/4less.jpg",
 					amount: 50000,
 					type: "Reg-A Equity Purchase",
 					finder: "Finder",
@@ -2154,7 +2079,21 @@ export default {
 					date: new Date("June 2020"),
 				},
 			],
+			showArrow: false,
 		};
+	},
+	mounted() {
+		window.addEventListener("scroll", this.onScroll);
+	},
+	beforeUnmount() {
+		window.removeEventListener("scroll", this.onScroll);
+	},
+	methods: {
+		onScroll() {
+			const firstViewportHeight = window.innerHeight * 0.9;
+			const scrollPosition = window.scrollY;
+			this.showArrow = scrollPosition >= firstViewportHeight;
+		},
 	},
 };
 </script>
