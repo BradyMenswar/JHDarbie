@@ -535,7 +535,7 @@ export default {
 					date: new Date("April 2022"),
 				},
 				{
-					img: "",
+					img: "/companyLogos/ozop.png",
 					amount: 200000000,
 					type: "Equity Line of Credit",
 					finder: "Finder",

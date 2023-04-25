@@ -1,7 +1,7 @@
 <template>
 	<div class="flex gap-8 justify-center flex-wrap">
 		<a
-			href="/transactions/#2022"
+			href="/transactions/"
 			class="min-w-[200px] w-[20%] px-8 py-4 glass flex flex-col justify-start items-center gap-2 text-white"
 		>
 			<div class="w-[50%] h-[50%] flex items-center justify-center mt-4 mb-4">
@@ -19,7 +19,7 @@
 			</div>
 		</a>
 		<a
-			href="/transactions/#2022"
+			href="/transactions/"
 			class="min-w-[200px] px-8 py-4 glass flex flex-col justify-start items-center gap-2 text-white w-[20%]"
 		>
 			<div class="w-[50%] h-[50%] flex items-center justify-center mt-4 mb-4">
@@ -37,7 +37,7 @@
 			</div>
 		</a>
 		<a
-			href="/transactions/#2022"
+			href="/transactions/"
 			class="min-w-[200px] px-8 py-4 glass flex flex-col items-center gap-2 text-white w-[20%]"
 		>
 			<div class="w-[50%] h-[50%] flex items-center justify-center mt-4 mb-4">
@@ -55,7 +55,7 @@
 			</div>
 		</a>
 		<a
-			href="/transactions/#2022"
+			href="/transactions/"
 			class="min-w-[200px] px-8 py-4 glass flex flex-col items-center gap-2 text-white w-[20%]"
 		>
 			<div class="w-[50%] h-[50%] flex items-center justify-center mt-4 mb-4">
