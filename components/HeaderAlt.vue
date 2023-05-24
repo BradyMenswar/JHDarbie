@@ -1,5 +1,10 @@
 <template>
-	<v-navigation-drawer v-model="drawer" temporary class="d-sm-flex d-md-none">
+	<v-navigation-drawer
+		v-model="drawer"
+		temporary
+		location="right"
+		class="d-sm-flex d-md-none"
+	>
 		<v-list nav dense>
 			<v-list-item link to="/services" nuxt>
 				<v-list-item-title class="font-weight-bold">

@@ -18,7 +18,7 @@
 			<div class="text-center px-8 d-flex flex-column">
 				<h5 class="text-subtitle-1">Policy</h5>
 				<div class="d-flex gap-4 justify-center">
-					<div class="d-flex flex-column align-start">
+					<div class="d-flex flex-column align-center align-md-start">
 						<NuxtLink class="text-subtitle-1 underline" to="/secrule"
 							><p class="text-body-2 underline">SEC Rule 606</p></NuxtLink
 						>
@@ -37,7 +37,7 @@
 							>Client Relationship Summary</a
 						>
 					</div>
-					<div class="d-flex flex-column align-start">
+					<div class="d-flex flex-column align-center align-md-start">
 						<a
 							href="/footer/Disclosures.pdf"
 							target="_blank"
