@@ -1,11 +1,11 @@
 <template>
-	<v-app>
+	<v-app class="bg">
 		<Header />
-		<v-main class="bg d-flex flex-column justify-start">
-			<h1 class="text-h2 text-center text-white mt-[10%]">
+		<v-main class="d-flex flex-column justify-start mb-8 justify-center">
+			<h1 class="text-h4 text-md-h2 text-center text-white">
 				Have confidence in your investments.
 			</h1>
-			<h3 class="text-h5 text-center text-white mt-4">
+			<h3 class="text-subtitle-1 text-md-h5 text-center text-white mt-4">
 				Expert Financial Professionals Dedicated to Your Success
 			</h3>
 			<div class="d-flex self-center mt-8">
@@ -27,6 +27,9 @@
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
+}
+
+body {
 }
 
 html {
