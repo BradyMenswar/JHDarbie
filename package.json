@@ -20,6 +20,11 @@
     "tailwindcss": "^3.2.4"
   },
   "dependencies": {
-    "nuxt3": "^3.0.1-rc.0-27857531.faf2607"
+    "@mdi/font": "^7.2.96",
+    "@vuelidate/core": "^2.0.2",
+    "@vuelidate/validators": "^2.0.2",
+    "nuxt3": "^3.0.1-rc.0-27857531.faf2607",
+    "sass": "^1.62.1",
+    "vuetify": "^3.3.0"
   }
 }

@@ -1,11 +1,12 @@
 <template>
-	<div
-		:class="widthClass"
-		class="glass2 aspect-square rounded-lg flex flex-col items-center justify-center text-center gap-4 p-4 min-w-[250px]"
-	>
-		<Icon class="" v-bind:name="icon" />
-		<h3 class="text-[24px]">{{ title }}</h3>
-	</div>
+	<v-card width="40%" min-width="300" :elevation="2">
+		<v-card-item>
+			<v-icon :icon="icon" size="x-large" class=""></v-icon>
+			<v-card-title>{{ title }}</v-card-title>
+		</v-card-item>
+		<v-card-subtitle>{{ subtitle }}</v-card-subtitle>
+		<v-card-text>{{ text }}</v-card-text>
+	</v-card>
 </template>
 
 <script>
@@ -15,18 +16,18 @@ export default {
 			type: String,
 			required: true,
 		},
+		subtitle: {
+			type: String,
+			required: true,
+		},
+		text: {
+			type: String,
+			required: true,
+		},
+
 		icon: {
 			type: String,
 			required: true,
-		},
-		width: {
-			type: String,
-			required: true,
-		},
-	},
-	computed: {
-		widthClass() {
-			return `w-[${this.width}]`;
 		},
 	},
 };

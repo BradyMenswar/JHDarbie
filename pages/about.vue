@@ -1,15 +1,12 @@
 <template>
-	<div class="flex flex-col overflow-x-hidden">
+	<v-app>
 		<HeaderAlt></HeaderAlt>
-
-		<div class="mt-[90px]">
-			<div class="w-full h-64 city flex justify-center items-center">
-				<h2 class="font-semibold text-[96px] text-white"></h2>
-			</div>
-			<div id="about" class="px-24 py-8">
+		<v-main class="px-8 mb-4">
+			<div class="h-64 city -mx-8"></div>
+			<div id="about" class="max-w-[1440px] mx-auto mt-8">
 				<article class="flex flex-col gap-2">
-					<h3 class="text-[48px] font-semibold">Our Team</h3>
-					<p class="text-[18px] mt-4">
+					<h2 class="text-h2 font-semibold">Our Team</h2>
+					<p class="text-body-1">
 						JH Darbie & Co. was founded in 1997 by Robert Rabinowitz. Over the
 						past 20 years, Mr. Rabinowitz has completed the acquisition of
 						several competing retail brokers/dealers including an online
@@ -26,54 +23,65 @@
 						financing and advisory assignments for public and private companies.
 					</p>
 				</article>
-				<article class="flex flex-col w-full mt-4">
-					<div class="flex gap-8 items-center py-4">
-						<div class="w-[10%]">
-							<img class="w-full" src="../assets/avatar.png" alt="Headshot" />
-						</div>
-						<div class="flex flex-col gap-2 w-full">
-							<h4 class="text-[20px] font-semibold">Robert Rabinowitz</h4>
-							<h5 class="text-[18px] font-semibold">CPA President, CEO</h5>
-							<p class="text-[18px]">
-								Robert Rabinowitz is President and CEO of JH Darbie & Co. (a
-								FINRA, SIPC, and MSRB member firm) which is a full-service
-								investment bank and brokerage firm. Robert oversees all
-								investment banking, institutional sales & trading, and retail
-								brokerage operations at JH Darbie. Since Robert founded JH
-								Darbie in 1997, Robert has completed the acquisition of several
-								competing retail broker-dealers and an online brokerage
-								operation which he successfully consolidated into a New York
-								City corporate headquarters located on Wall Street with three
-								additional US branch office locations. Over the last decade,
-								Robert expanded JH Darbie's powerful retail and online brokerage
-								operations to create and integrate such operations into an
-								exceptionally powerful institutional sales & trading division.
-								Robert further leveraged JH Darbie's extensive institutional and
-								retail capabilities as an invaluable resource for companies
-								seeking both domestic and international capital and completed
-								numerous financing and advisory assignments for public and
-								private companies. Robert is a licensed Certified Public
-								Accountant ("CPA"), as well as, holding numerous FINRA
-								securities licenses, including an MSP, CROP, and GP.
-							</p>
-						</div>
-					</div>
-				</article>
-				<p class="text-[18px]">
+				<TeamMember
+					name="Robert Rabinowitz"
+					title="CPA President, CEO"
+					portrait="portraits/avatar.png"
+					description="Robert Rabinowitz is President and CEO of JH Darbie & Co. (a FINRA, SIPC,
+				and MSRB member firm) which is a full-service investment bank and
+				brokerage firm. Robert oversees all investment banking, institutional
+				sales & trading, and retail brokerage operations at JH Darbie. Since
+				Robert founded JH Darbie in 1997, Robert has completed the acquisition of
+				several competing retail broker-dealers and an online brokerage operation
+				which he successfully consolidated into a New York City corporate
+				headquarters located on Wall Street with three additional US branch office
+				locations. Over the last decade, Robert expanded JH Darbie's powerful
+				retail and online brokerage operations to create and integrate such
+				operations into an exceptionally powerful institutional sales & trading
+				division. Robert further leveraged JH Darbie's extensive institutional and
+				retail capabilities as an invaluable resource for companies seeking both
+				domestic and international capital and completed numerous financing and
+				advisory assignments for public and private companies. Robert is a
+				licensed Certified Public Accountant (`CPA`), as well as, holding numerous
+				FINRA securities licenses, including an MSP, CROP, and GP."
+				></TeamMember>
+				<TeamMember
+					name="Robert Rabinowitz"
+					title="CPA President, CEO"
+					portrait="portraits/avatar.png"
+					description="Robert Rabinowitz is President and CEO of JH Darbie & Co. (a FINRA, SIPC,
+				and MSRB member firm) which is a full-service investment bank and
+				brokerage firm. Robert oversees all investment banking, institutional
+				sales & trading, and retail brokerage operations at JH Darbie. Since
+				Robert founded JH Darbie in 1997, Robert has completed the acquisition of
+				several competing retail broker-dealers and an online brokerage operation
+				which he successfully consolidated into a New York City corporate
+				headquarters located on Wall Street with three additional US branch office
+				locations. Over the last decade, Robert expanded JH Darbie's powerful
+				retail and online brokerage operations to create and integrate such
+				operations into an exceptionally powerful institutional sales & trading
+				division. Robert further leveraged JH Darbie's extensive institutional and
+				retail capabilities as an invaluable resource for companies seeking both
+				domestic and international capital and completed numerous financing and
+				advisory assignments for public and private companies. Robert is a
+				licensed Certified Public Accountant (`CPA`), as well as, holding numerous
+				FINRA securities licenses, including an MSP, CROP, and GP."
+				></TeamMember>
+				<p class="text-body-1 my-4">
 					If you are interested in a career opportunity with JH Darbie & Co.,
 					please submit your resume either by emailing the PDF or MS Word format
 					versions to recruiter@jhdarbie.com.
 				</p>
 			</div>
-		</div>
+		</v-main>
 		<Footer></Footer>
-	</div>
+	</v-app>
 </template>
 
 <style>
 .city {
-	background-image: url("../assets/City2.jpg");
-	background-position: 50% 10%;
+	background-image: url("../assets/citylow.jpg");
+	background-position: 50% 90%;
 	background-size: cover;
 }
 </style>

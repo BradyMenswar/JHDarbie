@@ -1,48 +1,44 @@
 <template>
-	<div class="flex flex-col overflow-x-auto">
+	<v-app>
 		<HeaderAlt></HeaderAlt>
-		<div class="w-full h-64 bridge2 flex justify-center mt-[90px]"></div>
-		<div class="flex flex-col">
-			<h2 class="px-24 text-[48px] font-semibold mt-8">Our Transactions</h2>
-			<div class="flex px-24 gap-4 underline text-[24px] text-blue-500">
-				<a href="#2020" class="">2020</a>
-				<a href="#2021" class="">2021</a>
-				<a href="#2022" class="">2022</a>
+		<v-main class="px-8 mb-4">
+			<div class="h-64 bridge2 -mx-8"></div>
+			<div class="max-w-[1440px] mx-auto mt-8">
+				<h2 class="text-h2 mt-8">Our Transactions</h2>
+
+				<div class="d-flex gap-2 text-h5 underline text-blue mb-4">
+					<a href="#2020" class="">2020</a>
+					<a href="#2021" class="">2021</a>
+					<a href="#2022" class="">2022</a>
+				</div>
+
+				<TransactionDeck
+					v-bind:tombstones="tombstones2023"
+					year="2023"
+				></TransactionDeck>
+				<TransactionDeck
+					v-bind:tombstones="tombstones2022"
+					year="2022"
+				></TransactionDeck>
+				<TransactionDeck
+					v-bind:tombstones="tombstones2021"
+					year="2021"
+				></TransactionDeck>
+				<TransactionDeck
+					v-bind:tombstones="tombstones2020"
+					year="2020"
+				></TransactionDeck>
+				<a
+					v-if="showArrow"
+					href="#"
+					class="fixed bottom-8 right-8 flex gap-2 items-center p-2 bg-grey-darken-1 rounded-full"
+				>
+					<Icon name="carbon:chevron-up" width="48px" height="48px" />
+				</a>
 			</div>
-		</div>
-		<TransactionDeck
-			v-bind:tombstones="tombstones2023"
-			year="2023"
-			pt="0px"
-			mt="32px"
-		></TransactionDeck>
-		<TransactionDeck
-			v-bind:tombstones="tombstones2022"
-			year="2022"
-			pt="90px"
-			mt="-64px"
-		></TransactionDeck>
-		<TransactionDeck
-			v-bind:tombstones="tombstones2021"
-			year="2021"
-			pt="90px"
-			mt="-64px"
-		></TransactionDeck>
-		<TransactionDeck
-			v-bind:tombstones="tombstones2020"
-			year="2020"
-			pt="90px"
-			mt="-64px"
-		></TransactionDeck>
+		</v-main>
 		<Footer></Footer>
-		<a
-			v-if="showArrow"
-			href="#"
-			class="fixed bottom-8 right-8 flex gap-2 items-center p-2 bg-sky-200 rounded-full"
-		>
-			<Icon name="carbon:chevron-up" width="48px" height="48px" />
-		</a>
-	</div>
+	</v-app>
 </template>
 
 <script>
@@ -2106,8 +2102,8 @@ export default {
 	color: white;
 }
 .bridge2 {
-	background-image: url("../assets/Street.jpg");
-	background-position: center;
+	background-image: url("../assets/exchange.jpg");
+	background-position: 50% 40%;
 	background-size: cover;
 }
 
