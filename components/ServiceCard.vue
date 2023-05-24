@@ -4,7 +4,7 @@
 			<v-icon :icon="icon" size="x-large" class=""></v-icon>
 			<v-card-title>{{ title }}</v-card-title>
 		</v-card-item>
-		<v-card-subtitle>{{ subtitle }}</v-card-subtitle>
+		<v-card-subtitle class="text-wrap">{{ subtitle }}</v-card-subtitle>
 		<v-card-text>{{ text }}</v-card-text>
 	</v-card>
 </template>
