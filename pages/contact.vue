@@ -2,7 +2,7 @@
 	<v-app>
 		<HeaderAlt />
 		<v-main class="px-8 mb-4">
-			<div class="h-64 bridge -mx-8"></div>
+			<div class="h-64 contact -mx-8"></div>
 			<div class="max-w-[1440px] mx-auto mt-8">
 				<h2 class="text-h2 mt-8">Contact Us</h2>
 				<form class="mt-8">
@@ -52,7 +52,7 @@
 </template>
 
 <style>
-.bridge {
+.contact {
 	background-image: url("../assets/contact.jpg");
 	background-position: center;
 	background-size: cover;

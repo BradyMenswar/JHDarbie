@@ -29,9 +29,6 @@
 	background-repeat: no-repeat;
 }
 
-body {
-}
-
 html {
 	scroll-behavior: smooth;
 }
