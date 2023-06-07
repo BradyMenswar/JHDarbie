@@ -1026,7 +1026,7 @@
 									class="px-4 underline text-blue-600 hover:no-underline"
 									target="_blank"
 									rel="noopener noreferrer"
-									href="/resources/"
+									href="/missing"
 									>STRATA Trust Company IRA Disclosures</a
 								>
 							</v-expansion-panel-text>

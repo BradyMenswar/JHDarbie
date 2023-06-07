@@ -7,15 +7,15 @@
 				<h2 class="text-h2 mt-8">Our Transactions</h2>
 
 				<div class="d-flex gap-2 text-h5 underline text-blue mb-4">
-					<a href="#2020" class="">2020</a>
+					<!-- <a href="#2020" class="">2020</a>
 					<a href="#2021" class="">2021</a>
-					<a href="#2022" class="">2022</a>
+					<a href="#2022" class="">2022</a> -->
 				</div>
 
-				<TransactionDeck
+				<!-- <TransactionDeck
 					v-bind:tombstones="tombstones2023"
 					year="2023"
-				></TransactionDeck>
+				></TransactionDeck> -->
 				<TransactionDeck
 					v-bind:tombstones="tombstones2022"
 					year="2022"

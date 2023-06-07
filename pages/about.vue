@@ -45,28 +45,7 @@
 				licensed Certified Public Accountant (`CPA`), as well as, holding numerous
 				FINRA securities licenses, including an MSP, CROP, and GP."
 				></TeamMember>
-				<TeamMember
-					name="Robert Rabinowitz"
-					title="CPA President, CEO"
-					portrait="portraits/avatar.png"
-					description="Robert Rabinowitz is President and CEO of JH Darbie & Co. (a FINRA, SIPC,
-				and MSRB member firm) which is a full-service investment bank and
-				brokerage firm. Robert oversees all investment banking, institutional
-				sales & trading, and retail brokerage operations at JH Darbie. Since
-				Robert founded JH Darbie in 1997, Robert has completed the acquisition of
-				several competing retail broker-dealers and an online brokerage operation
-				which he successfully consolidated into a New York City corporate
-				headquarters located on Wall Street with three additional US branch office
-				locations. Over the last decade, Robert expanded JH Darbie's powerful
-				retail and online brokerage operations to create and integrate such
-				operations into an exceptionally powerful institutional sales & trading
-				division. Robert further leveraged JH Darbie's extensive institutional and
-				retail capabilities as an invaluable resource for companies seeking both
-				domestic and international capital and completed numerous financing and
-				advisory assignments for public and private companies. Robert is a
-				licensed Certified Public Accountant (`CPA`), as well as, holding numerous
-				FINRA securities licenses, including an MSP, CROP, and GP."
-				></TeamMember>
+
 				<p class="text-body-1 my-4">
 					If you are interested in a career opportunity with JH Darbie & Co.,
 					please submit your resume either by emailing the PDF or MS Word format

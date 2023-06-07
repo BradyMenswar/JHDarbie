@@ -9,7 +9,11 @@
 				Expert Financial Professionals Dedicated to Your Success
 			</h3>
 			<div class="d-flex self-center mt-8">
-				<v-btn size="x-large">Book a consultation</v-btn>
+				<v-btn size="x-large"
+					><NuxtLink to="/contact"
+						>Contact a Financial Professional</NuxtLink
+					></v-btn
+				>
 			</div>
 		</v-main>
 	</v-app>
