@@ -9,7 +9,7 @@
 				Expert Financial Professionals Dedicated to Your Success
 			</h3>
 			<div class="d-flex self-center mt-8">
-				<v-btn size="x-large" to="/contact"
+				<v-btn size="large" to="/contact"
 					><NuxtLink to="/contact"
 						>Contact a Financial Professional</NuxtLink
 					></v-btn
@@ -31,6 +31,7 @@
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
+	height: 100dvh;
 }
 
 html {
