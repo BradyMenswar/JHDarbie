@@ -10,7 +10,7 @@
 				:elevation="2"
 				v-for="item in tombstones.slice().reverse()"
 			>
-				<v-img height="50" fit :src="item.img" alt="Company Logo"> </v-img>
+				<v-img height="100" width="200" fit :src="item.img" alt="Company Logo"> </v-img>
 				<v-card-title class="text-[24px]"
 					>${{ item.amount.toLocaleString("en-US") }}</v-card-title
 				>
