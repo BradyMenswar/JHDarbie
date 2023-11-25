@@ -46,7 +46,7 @@
 							>Disclosures</a
 						>
 						<a
-							href="/missing"
+							href="/footer/Privacy_Policy.pdf"
 							target="_blank"
 							rel="noopener noreferrer"
 							class="text-body-2 underline"

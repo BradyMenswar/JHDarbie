@@ -27,11 +27,11 @@
 			rgba(0, 0, 0, 40%),
 			rgba(255, 255, 255, 10%)
 		),
-		url("../assets/skyline.jpg");
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	height: 100dvh;
+		url("../assets/skyline.jpg") !important;
+	background-position: center !important;
+	background-size: cover !important;
+	background-repeat: no-repeat !important;
+	height: 100dvh !important;
 }
 
 html {
