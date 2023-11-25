@@ -1,15 +1,34 @@
+import vuetify, { transformAssetUrls } from 'vite-plugin-vuetify'
 export default defineNuxtConfig({
-	modules: ["@nuxtjs/tailwindcss", "nuxt-icon"],
-	css: [
-		"vuetify/lib/styles/main.sass",
-		"@mdi/font/css/materialdesignicons.min.css",
-	],
-	build: {
-		transpile: ["vuetify"],
-	},
-	vite: {
-		define: {
-			"process.env.DEBUG": false,
-		},
-	},
-});
+  //...
+  build: {
+    transpile: ['vuetify'],
+  },
+  site: {
+    url: 'https://www.darbie.com'
+  },
+  modules: [
+    (_options, nuxt) => {
+      nuxt.hooks.hook('vite:extendConfig', (config) => {
+        // @ts-expect-error
+        config.plugins.push(vuetify({ autoImport: true }))
+      })
+    },
+    'nuxt-simple-sitemap'
+    //...
+  ],
+  css: ['~/assets/css/main.css'],
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
+  },
+  vite: {
+    vue: {
+      template: {
+        transformAssetUrls,
+      },
+    },
+  },
+})
